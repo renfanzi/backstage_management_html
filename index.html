@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://www.jq22.com/demo/jQueryNav201710162238/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>扁平化可伸展导航[原创]</title>
+    <link rel="stylesheet" type="text/css" href="./static/admin/css/nav.css">
+    <link rel="stylesheet" type="text/css" href="./static/admin/css/iconfont.css">
+    <script src="./static/admin/js/jquery-1.10.2.js"></script><script src="./static/admin/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./static/admin/js/nav.js"></script>
+</head>
+<body style="">
+    <div class="header">
+       
+    </div>
+    <div class="nav">
+        <div class="nav-top">
+            <div id="mini" style="border-bottom:1px solid rgba(255,255,255,.1)"><img src="./static/admin/img/mini.png"></div>
+        </div>
+        <ul>
+            <li class="nav-item">
+                <a href="javascript:;"><i class="my-icon nav-icon icon_1"></i><span>网站配置</span><i class="my-icon nav-more"></i></a>
+                <ul style="display: none;">
+                    <li><a href="javascript:;"><span>网站设置</span></a></li>
+                    <li><a href="javascript:;"><span>友情链接</span></a></li>
+                    <li><a href="javascript:;"><span>分类管理</span></a></li>
+                    <li><a href="javascript:;"><span>系统日志</span></a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="javascript:;"><i class="my-icon nav-icon icon_2"></i><span>文章管理</span><i class="my-icon nav-more"></i></a>
+                <ul style="">
+                    <li><a href="javascript:;"><span>站内新闻</span></a></li>
+                    <li><a href="javascript:;"><span>站内公告</span></a></li>
+                    <li><a href="javascript:;"><span>登录日志</span></a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href="javascript:;"><i class="my-icon nav-icon icon_3"></i><span>订单管理</span><i class="my-icon nav-more"></i></a>
+                <ul style="">
+                    <li><a href="javascript:;"><span>订单列表</span></a></li>
+                    <li><a href="javascript:;"><span>打个酱油</span></a></li>
+                    <li><a href="javascript:;"><span>也打酱油</span></a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+</body></html>
+<script>
+$(function(){
+    $(window).resize()
+})
+$(window).resize(function(){
+    var height=$(window).height();
+    $('.nav').height(height-50+'px')
+})
+</script>
